@@ -4,7 +4,7 @@ import heroImg from "../../assets/hero-img.png";
 import twitterIcon from "../../assets/twitter-dark.svg"
 import linkedinIcon from "../../assets/linkedin-dark.svg"
 import githubIcon from "../../assets/github-dark.svg"
-import cv from "../../assets/cv2.pdf"
+import cv from "../../assets/cv3.pdf"
 
 const Hero = () => {
   return (
