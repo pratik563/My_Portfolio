@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./Hero.module.css";
-import heroImg from "../../assets/image3.png";
+import heroImg from "../../assets/hero-img.png";
 import twitterIcon from "../../assets/twitter-dark.svg"
 import linkedinIcon from "../../assets/linkedin-dark.svg"
 import githubIcon from "../../assets/github-dark.svg"
-import cv from "../../assets/Pratik_Wable_-_Frontend_Developer.pdf"
+import cv from "../../assets/cv2.pdf"
 
 const Hero = () => {
   return (
