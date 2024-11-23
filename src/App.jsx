@@ -1,17 +1,19 @@
 import { useState } from "react";
 import "./App.css";
-import Hero from "./sections/Hero/Hero";
-import Projects from "./sections/Projects/Projects";
-import Skills from "./sections/Skills/Skills";
-import Contact from "./sections/Contact/Contact";
-import Footer from "./sections/Footer/Footer";
-import Certificate from "./sections/Certificates/Certificate";
+import Hero from "./sections/Hero";
+import Projects from "./sections/Projects";
+import Skills from "./sections/Skills";
+import Contact from "./sections/Contact";
+import Footer from "./sections/Footer";
+import Certificate from "./sections/Certificate";
+import Navbar from "./sections/Navbar";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
+      <Navbar />
       <Hero />
       <Projects />
       <Skills />

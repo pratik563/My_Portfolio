@@ -1,9 +1,11 @@
 import React from "react";
-import styles from "./Footer.module.css";
 
 const Footer = () => {
   return (
-    <section id="footer" className={styles.container}>
+    <section
+      id="footer"
+      className="text-center pb-2 text-footer-text-color text-sm sm:text-base lg:text-lg"
+    >
       <p>
         Author: &copy; 2024 Pratik Wable. <br />
         All Rights Reserved

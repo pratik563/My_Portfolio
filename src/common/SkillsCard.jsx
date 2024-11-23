@@ -1,12 +1,12 @@
-import React from 'react'
+import React from "react";
 
-const SkillsCard = ({src,skill}) => {
+const SkillsCard = ({ src, skill }) => {
   return (
-    <span>
-      <img src={src} alt={`${src} icon`} />
-      <p>{skill}</p>
+    <span className="flex items-center gap-4">
+      <img className="w-8" src={src} alt={`${src} icon`} />
+      <p className="text-lg">{skill}</p>
     </span>
-  )
-}
+  );
+};
 
-export default SkillsCard
+export default SkillsCard;
